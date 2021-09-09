@@ -1,0 +1,25 @@
+package com.robsondev.vendas.entities;
+
+import java.time.LocalDate;
+
+public class Sale {
+	private Long id;
+	private Integer visited,deals;
+	private Double amount;
+	private LocalDate date; 
+	private Seller seller;
+	public Sale() {
+		
+	}
+	public Sale(Long id, Integer visited, Integer deals, Double amount, LocalDate date, Seller seller) {
+		
+		this.id = id;
+		this.visited = visited;
+		this.deals = deals;
+		this.amount = amount;
+		this.date = date;
+		this.seller = seller;
+	}
+	
+	
+}
