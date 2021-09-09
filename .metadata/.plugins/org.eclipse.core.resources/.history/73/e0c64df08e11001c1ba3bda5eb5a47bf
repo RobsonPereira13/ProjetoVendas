@@ -1,0 +1,5 @@
+package com.robsondev.vendas.dto;
+
+public class SaleDTO {
+
+}
