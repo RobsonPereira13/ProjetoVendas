@@ -1,0 +1,5 @@
+package com.robsondev.vendas.repositories;
+
+public interface SellerRepository {
+
+}
