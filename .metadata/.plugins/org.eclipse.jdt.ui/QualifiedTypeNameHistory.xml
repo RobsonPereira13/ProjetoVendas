@@ -10,8 +10,6 @@
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
     <fullyQualifiedTypeName name="com.robsondev.vendas.repositories.SellerRepository"/>
-    <fullyQualifiedTypeName name="java.io.Serializable"/>
-    <fullyQualifiedTypeName name="com.robsondev.vendas.entities.Seller"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
@@ -19,7 +17,6 @@
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
     <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.robsondev.vendas.dto.SellerDTO"/>
     <fullyQualifiedTypeName name="com.robsondev.vendas.repositories.SaleRepository"/>
     <fullyQualifiedTypeName name="com.robsondev.vendas.entities.Sale"/>
@@ -27,4 +24,9 @@
     <fullyQualifiedTypeName name="org.springframework.data.domain.Page"/>
     <fullyQualifiedTypeName name="com.robsondev.vendas.services.SaleService"/>
     <fullyQualifiedTypeName name="com.robsondev.vendas.dto.SaleDTO"/>
+    <fullyQualifiedTypeName name="com.robsondev.vendas.entities.Seller"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.Query"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.robsondev.vendas.dto.SaleSumDTO"/>
 </qualifiedTypeNameHistroy>
