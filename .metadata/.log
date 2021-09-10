@@ -1699,3 +1699,90 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 11:43:49.911
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.OGmlPDFF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 11:43:49.911
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.OGmlPDFF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 11:43:49.912
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 11:43:49.912
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.OGmlPDFF => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 11:43:56.023
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 11:43:56.023
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5781f2a2[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=555)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 11:43:56.024
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 11:43:57.978
+!MESSAGE Boot LS startup time from start to initialized: 1954ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 11:43:58.049
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PiPByKeyisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 11:43:58.050
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 11:43:58.050
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 11:43:58.051
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 11:43:58.051
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 11:43:58.051
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PiPByKey => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 11:43:58.056
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 11:43:58.059
+!MESSAGE buffering callback sts4.classpath.PiPByKey backend false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 11:43:58.060
+!MESSAGE executing callback sts4.classpath.PiPByKey 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 11:43:58.428
+!MESSAGE executing callback sts4.classpath.PiPByKey SUCCESS [done]
+
+!ENTRY org.eclipse.jface 2 0 2021-09-10 11:44:32.889
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-09-10 11:44:32.889
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@614018,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d4f102f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 12:05:17.722
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PiPByKey
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 12:05:17.722
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.PiPByKey
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 12:05:17.723
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 12:05:17.723
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PiPByKey => OK
