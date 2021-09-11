@@ -2,22 +2,21 @@
 
 
 
-const Footer =()=> {
-    return (
-        <footer className="footer mt-auto py-3 bg-dark">
-        <div className="container">
-        <a
-           className="btn btn-outline-light btn-floating m-1"
-           href="#!"
-           role="button"
-           ><i className="fab fa-facebook-f"></i
-          ></a>
-          <p className="text-light">App desenvolvido por <a href="https://github.com/acenelio" target="_blank" rel="noreferrer">Nelio Alves</a></p>
-          <p className="text-light"><small><strong>Semana Spring React</strong><br/>
-            Evento promovido pela escola DevSuperior: <a href="https://instagram.com/devsuperior.ig" target="_blank" rel="noreferrer">@devsuperior.ig</a></small></p>
-        </div>
-      </footer>
-    );
+const Footer = () => {
+
+  return (
+    <footer className="footer">
+      <div className="footer__social">
+        <a href="https://www.instagram.com/speak.up.tech/">
+
+        </a>
+        <a href="https://www.youtube.com/c/SpeakupTech">
+
+        </a>  
+      </div>
+      <p className="footer__copyright">Made with by  Speak up Tech</p>
+    </footer>
+  )
 }
 
 export default Footer;
