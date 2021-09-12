@@ -1,5 +1,6 @@
 
 import axios from 'axios';
+import { useState,useEffect } from 'react';
 import Chart from 'react-apexcharts';
 import { SaleSum } from 'types/sale';
 import { BASE_URL } from 'utils/requests';
@@ -9,20 +10,24 @@ type ChartData ={
     series:number[];
 }
 const DonutChat =()=> {
-    //Forma errada
-    let chartData : ChartData ={labels:[], series:[]};
-    axios.get(BASE_URL +'/sales/amount-by-saller')
+    const [chartData, setChartData] = useState<ChartData>({labels:[], series:[]});
+   useEffect(()=>{
+    axios.get(`${BASE_URL}/sales/amount-by-seller`)
     .then(response =>{
-        const data = response.data as SaleSum[]
-        const myLabels = data.map(x => x.sellerName)
-        const mySeries = data.map(x => x.sum)
-        chartData = {labels:myLabels,series: mySeries}
-        console.log(chartData);
-    })
-    const mockData = {
-        series: [477138, 499928, 444867, 220426, 473088],
-        labels: ['Anakin', 'Barry Allen', 'Kal-El', 'Logan', 'Padmé']
-    }
+        const data = response.data as SaleSum[];
+        const myLabels = data.map(x => x.sellerName);
+        const mySeries = data.map(x => x.sum);
+        setChartData ( { labels:myLabels, series: mySeries });
+      //  console.log(chartData);
+    });
+   }, []);
+    //Forma errada
+    //let chartData : ChartData ={labels:[], series:[]};
+   
+  //  const mockData = {
+    //    series: [477138, 499928, 444867, 220426, 473088],
+   //     labels: ['Anakin', 'Barry Allen', 'Kal-El', 'Logan', 'Padmé']
+   // }
     
     const options = {
         legend: {
@@ -40,3 +45,7 @@ height="240"
 }
 
 export default DonutChat;
+function userEffect(arg0: () => void) {
+    throw new Error('Function not implemented.');
+}
+
